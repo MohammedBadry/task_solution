@@ -18,7 +18,7 @@ The solution has the following:
 3- Test register and account API's
 
 
-<b>Installation Guide: <b>
+<b>Installation Guide: </b>
 
 1- Clone the reop
 
