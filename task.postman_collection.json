@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "cdcc499f-4a2e-46c8-8cd1-d9e299b425c3",
+		"name": "task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "client_name",
+							"value": "Ahmed Ali",
+							"type": "text"
+						},
+						{
+							"key": "address1",
+							"value": "Luxor",
+							"type": "text"
+						},
+						{
+							"key": "address2",
+							"value": "Tod",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Tod",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "Luxor",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "Egypt",
+							"type": "text"
+						},
+						{
+							"key": "phone_no1",
+							"value": "0100037626711",
+							"type": "text"
+						},
+						{
+							"key": "phone_no2",
+							"value": "0109796603311",
+							"type": "text"
+						},
+						{
+							"key": "zip",
+							"value": "85842",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "Mohammed",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Badry",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mbmb@bmbm.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "01097966033",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "account",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/account",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"account"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "address1",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "address2",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "city",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "state",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "country",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "zip_code",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "phone_no1",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "phone_no2",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "start_validity",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "end_validity",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "created_at",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
