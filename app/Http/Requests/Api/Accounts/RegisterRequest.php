@@ -34,7 +34,7 @@ class RegisterRequest extends FormRequest
             'state' => 'required|string|max:100',
             'country' => 'required|string|max:100',
             'phone_no1' => 'required|unique:clients,phone_no1',
-            'phone_no2' => 'sometimes|unique:clients,phone_no1',
+            'phone_no2' => 'sometimes|unique:clients,phone_no2',
             'zip' => 'required',
             'first_name' => 'required|string|max:100',
             'last_name' => 'required|string|max:100',
