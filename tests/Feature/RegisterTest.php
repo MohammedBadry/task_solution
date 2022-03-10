@@ -75,7 +75,7 @@ class RegisterTest extends TestCase
             ]);
 
         $this->assertDatabaseHas('clients', [
-            'phone_no1' => '01000123456',
+            'phone_no1' => '01000376267',
         ]);
     }
 
